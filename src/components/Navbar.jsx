@@ -7,7 +7,7 @@ const links = [
   { name: "Dashboard", path: "/dashboard" },
   { name: "Explore", path: "/explore" },
   { name: "Systems", path: "/systems" },
-  { name: "Experiments", path: "/experiments" },
+  { name: "Gates", path: "/gates" },
 ];
 
 export default function Navbar() {

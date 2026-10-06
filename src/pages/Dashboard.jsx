@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const modules = [
   { icon: <Atom />, title: "Qubit Fundamentals", description: "Learn how quantum information is represented.", path: "/experiments/single-qubit" },
   { icon: <Orbit />, title: "Bloch Sphere", description: "Visualize the state of a single qubit.", path: "/experiments/bloch-sphere" },
-  { icon: <CircuitBoard />, title: "Quantum Gates", description: "Transform qubit states with quantum operations.", path: "/experiments/quantum-gates" },
+  { icon: <CircuitBoard />, title: "Quantum Gates", description: "Transform qubit states with quantum operations.", path: "/gates" },
   { icon: <Layers />, title: "Superposition", description: "Explore multiple quantum states at once.", path: "/experiments/superposition" },
   { icon: <BrainCircuit />, title: "Entanglement", description: "Discover quantum correlations.", path: "/experiments/entanglement" },
   { icon: <FlaskConical />, title: "Algorithms", description: "Explore quantum computational methods.", path: "/experiments/grover" }

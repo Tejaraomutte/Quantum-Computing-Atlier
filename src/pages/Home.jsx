@@ -6,9 +6,9 @@ import QuantumCard from "../components/QuantumCard";
 import QubitVisualizer from "../components/QubitVisualizer";
 
 const features = [
-  { icon: <Atom />, title: "Qubits", description: "Understand the fundamental unit of quantum information." },
-  { icon: <CircuitBoard />, title: "Quantum Gates", description: "Build circuits using quantum operations and transformations." },
-  { icon: <BrainCircuit />, title: "Algorithms", description: "Explore the ideas behind modern quantum algorithms." }
+  { icon: <Atom />, title: "Qubits", description: "Understand the fundamental unit of quantum information.", to: "/experiments/single-qubit" },
+  { icon: <CircuitBoard />, title: "Quantum Gates", description: "Build circuits using quantum operations and transformations.", to: "/gates" },
+  { icon: <BrainCircuit />, title: "Algorithms", description: "Explore the ideas behind modern quantum algorithms.", to: "/experiments/grover" }
 ];
 
 export default function Home() {
